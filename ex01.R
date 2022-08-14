@@ -1,2 +1,8 @@
+#sumario da base de dados iris
 summary(iris)
-mean(iris$Petal.Width)
+
+#plots da base de dados iris
+plot(iris)
+
+#estrutura da base de dados iris
+str(iris)
