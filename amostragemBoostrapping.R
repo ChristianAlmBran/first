@@ -31,5 +31,5 @@ particaoDistNormal <- createDataPartition(1:length(distNormalSimulacao), p=.8)
 # partição para treinar os dados, usando a partição anterior.
 treinoDistNormal <- distNormalSimulacao[unlist(particaoDistNormal)] 
 # partição para testar os dados, usando a partição anterior
-testeDistNormal <- distNormalSimulacao[- unlist(particaoDistNormal)] 
+testeDistNormal <- distNormalSimulacao[- unlist(particaoDistNormal)]  
  
