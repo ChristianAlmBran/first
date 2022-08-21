@@ -23,7 +23,7 @@ median(maxBootsNormal75)
 median(maxBootsNormal150) 
 median(distNormalSimulacao)
 
-# partições
+# partições 
 library(caret)
 
 # partições de dados
