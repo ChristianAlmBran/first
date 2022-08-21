@@ -1,13 +1,13 @@
 library(ggplot2)
 
-family.names.ages <- data.frame (name = c("John", "Peter", "Ana"), 
+familyNamesAges <- data.frame (name = c("John", "Peter", "Ana"), 
                                 age = c(45, 28, 12))
-View(family.names.ages)
+View(familyNamesAges)
 
-family.names.ages.plot <- ggplot(family.names.ages, aes(x=name, y=age)) +
+familyNamesAgesPlot <- ggplot(familyNamesAges, aes(x=name, y=age)) +
   geom_point()
 
-View(family.names.ages.plot)
+View(familyNamesAgesPlot)
 
-str(family.names.ages.plot)
+str(familyNamesAgesPlot)
 
