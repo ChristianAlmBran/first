@@ -27,3 +27,5 @@ listaOrganizacoesInternacionais <- data.frame(
 
 View(listaOrganizacoesInternacionais)
 
+str(listaOrganizacoesInternacionais)
+
